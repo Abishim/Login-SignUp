@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(353deg, rgb(242, 82, 69),rgb(131, 28, 80));
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+.login-form{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.628) ;
+    border-radius: 20px;
+}
+.login-form>h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.login-form>form>input{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+    background-color: transparent;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.628);
+    color: aliceblue;
+}
+.login-form>form>input::placeholder{
+    color: rgba(240, 248, 255, 0.767);
+}
+.login-form>form>button{
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.628);
+    background-color: transparent;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.5s;
+}
+.login-form>form>button:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 1px 1px 4px #db4747, -1px -1px 4px #97264e;
+    text-shadow: 1px 1px 4px black;
+}
+.login-form>form>p{
+    text-align: left;
+    margin-left: 20px;
+}
+.login-form>form>p>a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.login-form>form>p>a:hover{
+    text-decoration: underline;
+}
+.login-form>p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.login-form>p>a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.login-form>p>a:hover{
+    text-decoration: underline;
+}
